@@ -6,5 +6,5 @@ Windows scoop
 
 from cmd.exe
 ```shell
-mklink /J C:\Users\(User)\scoop\apps\gimp\X.XX.XX-X\lib\gimp\X.X\plug-ins\make-mask (Any)\GIMP-Python-Fu\plug-ins\make-mask
+mklink /J "%USERPROFILE%\scoop\apps\gimp\current\lib\gimp\2.0\plug-ins\make-mask" "(root of the repository)\plug-ins\make-mask"
 ```
